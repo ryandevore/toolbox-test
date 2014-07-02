@@ -1,0 +1,678 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		086187961963F7BF00A65A64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 086187951963F7BF00A65A64 /* Foundation.framework */; };
+		086187981963F7BF00A65A64 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 086187971963F7BF00A65A64 /* CoreGraphics.framework */; };
+		0861879A1963F7BF00A65A64 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 086187991963F7BF00A65A64 /* UIKit.framework */; };
+		086187A01963F7BF00A65A64 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0861879E1963F7BF00A65A64 /* InfoPlist.strings */; };
+		086187A81963F7BF00A65A64 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 086187A71963F7BF00A65A64 /* Images.xcassets */; };
+		086187AF1963F7BF00A65A64 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 086187AE1963F7BF00A65A64 /* XCTest.framework */; };
+		086187B01963F7BF00A65A64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 086187951963F7BF00A65A64 /* Foundation.framework */; };
+		086187B11963F7BF00A65A64 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 086187991963F7BF00A65A64 /* UIKit.framework */; };
+		086187B91963F7BF00A65A64 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 086187B71963F7BF00A65A64 /* InfoPlist.strings */; };
+		086187BB1963F7BF00A65A64 /* UUToolboxTestBedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 086187BA1963F7BF00A65A64 /* UUToolboxTestBedTests.m */; };
+		086187CF1963F81800A65A64 /* UUTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 086187C91963F81800A65A64 /* UUTAppDelegate.m */; };
+		086187D11963F82E00A65A64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 086187D01963F82E00A65A64 /* main.m */; };
+		086187D61963F91200A65A64 /* UUTMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 086187D41963F91200A65A64 /* UUTMainViewController.m */; };
+		086187D71963F91200A65A64 /* UUTMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 086187D51963F91200A65A64 /* UUTMainViewController.xib */; };
+		086188491963FF5200A65A64 /* UUActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 086187FF1963FF5100A65A64 /* UUActionSheet.m */; };
+		0861884A1963FF5200A65A64 /* UUAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 086188011963FF5100A65A64 /* UUAlert.m */; };
+		0861884C1963FF5200A65A64 /* UUCameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = 086188051963FF5100A65A64 /* UUCameraView.m */; };
+		0861884D1963FF5200A65A64 /* UUColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 086188071963FF5100A65A64 /* UUColor.m */; };
+		0861884E1963FF5200A65A64 /* UUDataCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 086188091963FF5100A65A64 /* UUDataCache.m */; };
+		0861884F1963FF5200A65A64 /* UUDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0861880B1963FF5100A65A64 /* UUDate.m */; };
+		086188501963FF5200A65A64 /* UUDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 0861880D1963FF5100A65A64 /* UUDebug.m */; };
+		086188511963FF5200A65A64 /* UUDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 0861880F1963FF5100A65A64 /* UUDevice.m */; };
+		086188521963FF5200A65A64 /* UUDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 086188111963FF5100A65A64 /* UUDictionary.m */; };
+		086188551963FF5200A65A64 /* UUHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 086188171963FF5100A65A64 /* UUHttpClient.m */; };
+		086188561963FF5200A65A64 /* UUImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 086188191963FF5100A65A64 /* UUImage.m */; };
+		086188571963FF5200A65A64 /* UUImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0861881B1963FF5100A65A64 /* UUImageView.m */; };
+		086188591963FF5200A65A64 /* UULocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0861881F1963FF5100A65A64 /* UULocationManager.m */; };
+		0861885A1963FF5200A65A64 /* UUMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 086188211963FF5100A65A64 /* UUMapView.m */; };
+		0861885B1963FF5200A65A64 /* UUObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 086188231963FF5100A65A64 /* UUObject.m */; };
+		0861885C1963FF5200A65A64 /* UUOpenALSoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 086188251963FF5100A65A64 /* UUOpenALSoundManager.m */; };
+		0861885D1963FF5200A65A64 /* UUProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 086188271963FF5100A65A64 /* UUProgressView.m */; };
+		0861885E1963FF5200A65A64 /* UURandom.m in Sources */ = {isa = PBXBuildFile; fileRef = 086188291963FF5100A65A64 /* UURandom.m */; };
+		0861885F1963FF5200A65A64 /* UUReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 0861882B1963FF5100A65A64 /* UUReachability.m */; };
+		086188601963FF5200A65A64 /* UURemoteData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0861882D1963FF5100A65A64 /* UURemoteData.m */; };
+		086188611963FF5200A65A64 /* UUString.m in Sources */ = {isa = PBXBuildFile; fileRef = 0861882F1963FF5200A65A64 /* UUString.m */; };
+		086188621963FF5200A65A64 /* UUTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 086188311963FF5200A65A64 /* UUTextField.m */; };
+		086188631963FF5200A65A64 /* UUVerticalSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 086188331963FF5200A65A64 /* UUVerticalSliderView.m */; };
+		086188641963FF5200A65A64 /* UUView.m in Sources */ = {isa = PBXBuildFile; fileRef = 086188351963FF5200A65A64 /* UUView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		086187B21963F7BF00A65A64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0861878A1963F7BF00A65A64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 086187911963F7BF00A65A64;
+			remoteInfo = UUToolboxTestBed;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		086187921963F7BF00A65A64 /* UUToolboxTestBed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UUToolboxTestBed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		086187951963F7BF00A65A64 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		086187971963F7BF00A65A64 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		086187991963F7BF00A65A64 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0861879D1963F7BF00A65A64 /* UUToolboxTestBed-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UUToolboxTestBed-Info.plist"; sourceTree = "<group>"; };
+		0861879F1963F7BF00A65A64 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		086187A31963F7BF00A65A64 /* UUToolboxTestBed-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UUToolboxTestBed-Prefix.pch"; sourceTree = "<group>"; };
+		086187A71963F7BF00A65A64 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		086187AD1963F7BF00A65A64 /* UUToolboxTestBedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UUToolboxTestBedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		086187AE1963F7BF00A65A64 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		086187B61963F7BF00A65A64 /* UUToolboxTestBedTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UUToolboxTestBedTests-Info.plist"; sourceTree = "<group>"; };
+		086187B81963F7BF00A65A64 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		086187BA1963F7BF00A65A64 /* UUToolboxTestBedTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UUToolboxTestBedTests.m; sourceTree = "<group>"; };
+		086187C81963F81800A65A64 /* UUTAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUTAppDelegate.h; sourceTree = "<group>"; };
+		086187C91963F81800A65A64 /* UUTAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUTAppDelegate.m; sourceTree = "<group>"; };
+		086187D01963F82E00A65A64 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		086187D21963F86E00A65A64 /* UUTInclude.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UUTInclude.h; sourceTree = "<group>"; };
+		086187D31963F91200A65A64 /* UUTMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUTMainViewController.h; sourceTree = "<group>"; };
+		086187D41963F91200A65A64 /* UUTMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUTMainViewController.m; sourceTree = "<group>"; };
+		086187D51963F91200A65A64 /* UUTMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UUTMainViewController.xib; sourceTree = "<group>"; };
+		086187FE1963FF5100A65A64 /* UUActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUActionSheet.h; sourceTree = "<group>"; };
+		086187FF1963FF5100A65A64 /* UUActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUActionSheet.m; sourceTree = "<group>"; };
+		086188001963FF5100A65A64 /* UUAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUAlert.h; sourceTree = "<group>"; };
+		086188011963FF5100A65A64 /* UUAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUAlert.m; sourceTree = "<group>"; };
+		086188041963FF5100A65A64 /* UUCameraView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUCameraView.h; sourceTree = "<group>"; };
+		086188051963FF5100A65A64 /* UUCameraView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUCameraView.m; sourceTree = "<group>"; };
+		086188061963FF5100A65A64 /* UUColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUColor.h; sourceTree = "<group>"; };
+		086188071963FF5100A65A64 /* UUColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUColor.m; sourceTree = "<group>"; };
+		086188081963FF5100A65A64 /* UUDataCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUDataCache.h; sourceTree = "<group>"; };
+		086188091963FF5100A65A64 /* UUDataCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUDataCache.m; sourceTree = "<group>"; };
+		0861880A1963FF5100A65A64 /* UUDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUDate.h; sourceTree = "<group>"; };
+		0861880B1963FF5100A65A64 /* UUDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUDate.m; sourceTree = "<group>"; };
+		0861880C1963FF5100A65A64 /* UUDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUDebug.h; sourceTree = "<group>"; };
+		0861880D1963FF5100A65A64 /* UUDebug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUDebug.m; sourceTree = "<group>"; };
+		0861880E1963FF5100A65A64 /* UUDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUDevice.h; sourceTree = "<group>"; };
+		0861880F1963FF5100A65A64 /* UUDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUDevice.m; sourceTree = "<group>"; };
+		086188101963FF5100A65A64 /* UUDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUDictionary.h; sourceTree = "<group>"; };
+		086188111963FF5100A65A64 /* UUDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUDictionary.m; sourceTree = "<group>"; };
+		086188161963FF5100A65A64 /* UUHttpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUHttpClient.h; sourceTree = "<group>"; };
+		086188171963FF5100A65A64 /* UUHttpClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUHttpClient.m; sourceTree = "<group>"; };
+		086188181963FF5100A65A64 /* UUImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUImage.h; sourceTree = "<group>"; };
+		086188191963FF5100A65A64 /* UUImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUImage.m; sourceTree = "<group>"; };
+		0861881A1963FF5100A65A64 /* UUImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUImageView.h; sourceTree = "<group>"; };
+		0861881B1963FF5100A65A64 /* UUImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUImageView.m; sourceTree = "<group>"; };
+		0861881E1963FF5100A65A64 /* UULocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UULocationManager.h; sourceTree = "<group>"; };
+		0861881F1963FF5100A65A64 /* UULocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UULocationManager.m; sourceTree = "<group>"; };
+		086188201963FF5100A65A64 /* UUMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUMapView.h; sourceTree = "<group>"; };
+		086188211963FF5100A65A64 /* UUMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUMapView.m; sourceTree = "<group>"; };
+		086188221963FF5100A65A64 /* UUObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUObject.h; sourceTree = "<group>"; };
+		086188231963FF5100A65A64 /* UUObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUObject.m; sourceTree = "<group>"; };
+		086188241963FF5100A65A64 /* UUOpenALSoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUOpenALSoundManager.h; sourceTree = "<group>"; };
+		086188251963FF5100A65A64 /* UUOpenALSoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUOpenALSoundManager.m; sourceTree = "<group>"; };
+		086188261963FF5100A65A64 /* UUProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUProgressView.h; sourceTree = "<group>"; };
+		086188271963FF5100A65A64 /* UUProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUProgressView.m; sourceTree = "<group>"; };
+		086188281963FF5100A65A64 /* UURandom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UURandom.h; sourceTree = "<group>"; };
+		086188291963FF5100A65A64 /* UURandom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UURandom.m; sourceTree = "<group>"; };
+		0861882A1963FF5100A65A64 /* UUReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUReachability.h; sourceTree = "<group>"; };
+		0861882B1963FF5100A65A64 /* UUReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUReachability.m; sourceTree = "<group>"; };
+		0861882C1963FF5100A65A64 /* UURemoteData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UURemoteData.h; sourceTree = "<group>"; };
+		0861882D1963FF5100A65A64 /* UURemoteData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UURemoteData.m; sourceTree = "<group>"; };
+		0861882E1963FF5200A65A64 /* UUString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUString.h; sourceTree = "<group>"; };
+		0861882F1963FF5200A65A64 /* UUString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUString.m; sourceTree = "<group>"; };
+		086188301963FF5200A65A64 /* UUTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUTextField.h; sourceTree = "<group>"; };
+		086188311963FF5200A65A64 /* UUTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUTextField.m; sourceTree = "<group>"; };
+		086188321963FF5200A65A64 /* UUVerticalSliderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUVerticalSliderView.h; sourceTree = "<group>"; };
+		086188331963FF5200A65A64 /* UUVerticalSliderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUVerticalSliderView.m; sourceTree = "<group>"; };
+		086188341963FF5200A65A64 /* UUView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUView.h; sourceTree = "<group>"; };
+		086188351963FF5200A65A64 /* UUView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0861878F1963F7BF00A65A64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				086187981963F7BF00A65A64 /* CoreGraphics.framework in Frameworks */,
+				0861879A1963F7BF00A65A64 /* UIKit.framework in Frameworks */,
+				086187961963F7BF00A65A64 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		086187AA1963F7BF00A65A64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				086187AF1963F7BF00A65A64 /* XCTest.framework in Frameworks */,
+				086187B11963F7BF00A65A64 /* UIKit.framework in Frameworks */,
+				086187B01963F7BF00A65A64 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		086187891963F7BF00A65A64 = {
+			isa = PBXGroup;
+			children = (
+				0861879B1963F7BF00A65A64 /* UUToolboxTestBed */,
+				086187B41963F7BF00A65A64 /* UUToolboxTestBedTests */,
+				086187941963F7BF00A65A64 /* Frameworks */,
+				086187931963F7BF00A65A64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		086187931963F7BF00A65A64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				086187921963F7BF00A65A64 /* UUToolboxTestBed.app */,
+				086187AD1963F7BF00A65A64 /* UUToolboxTestBedTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		086187941963F7BF00A65A64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				086187951963F7BF00A65A64 /* Foundation.framework */,
+				086187971963F7BF00A65A64 /* CoreGraphics.framework */,
+				086187991963F7BF00A65A64 /* UIKit.framework */,
+				086187AE1963F7BF00A65A64 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0861879B1963F7BF00A65A64 /* UUToolboxTestBed */ = {
+			isa = PBXGroup;
+			children = (
+				086187D91963FF5100A65A64 /* toolbox */,
+				086187C51963F81800A65A64 /* Source */,
+				086187C41963F80800A65A64 /* Resources */,
+				0861879C1963F7BF00A65A64 /* Supporting Files */,
+			);
+			path = UUToolboxTestBed;
+			sourceTree = "<group>";
+		};
+		0861879C1963F7BF00A65A64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				086187D01963F82E00A65A64 /* main.m */,
+				0861879D1963F7BF00A65A64 /* UUToolboxTestBed-Info.plist */,
+				0861879E1963F7BF00A65A64 /* InfoPlist.strings */,
+				086187A31963F7BF00A65A64 /* UUToolboxTestBed-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		086187B41963F7BF00A65A64 /* UUToolboxTestBedTests */ = {
+			isa = PBXGroup;
+			children = (
+				086187BA1963F7BF00A65A64 /* UUToolboxTestBedTests.m */,
+				086187B51963F7BF00A65A64 /* Supporting Files */,
+			);
+			path = UUToolboxTestBedTests;
+			sourceTree = "<group>";
+		};
+		086187B51963F7BF00A65A64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				086187B61963F7BF00A65A64 /* UUToolboxTestBedTests-Info.plist */,
+				086187B71963F7BF00A65A64 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		086187C41963F80800A65A64 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				086187A71963F7BF00A65A64 /* Images.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		086187C51963F81800A65A64 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				086187C61963F81800A65A64 /* App */,
+				086187CA1963F81800A65A64 /* Data */,
+				086187CB1963F81800A65A64 /* Framework */,
+				086187CC1963F81800A65A64 /* Server */,
+				086187CD1963F81800A65A64 /* UI */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		086187C61963F81800A65A64 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				086187C81963F81800A65A64 /* UUTAppDelegate.h */,
+				086187C91963F81800A65A64 /* UUTAppDelegate.m */,
+				086187D21963F86E00A65A64 /* UUTInclude.h */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		086187CA1963F81800A65A64 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		086187CB1963F81800A65A64 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		086187CC1963F81800A65A64 /* Server */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Server;
+			sourceTree = "<group>";
+		};
+		086187CD1963F81800A65A64 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				086187D31963F91200A65A64 /* UUTMainViewController.h */,
+				086187D41963F91200A65A64 /* UUTMainViewController.m */,
+				086187D51963F91200A65A64 /* UUTMainViewController.xib */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		086187D91963FF5100A65A64 /* toolbox */ = {
+			isa = PBXGroup;
+			children = (
+				086187FE1963FF5100A65A64 /* UUActionSheet.h */,
+				086187FF1963FF5100A65A64 /* UUActionSheet.m */,
+				086188001963FF5100A65A64 /* UUAlert.h */,
+				086188011963FF5100A65A64 /* UUAlert.m */,
+				086188041963FF5100A65A64 /* UUCameraView.h */,
+				086188051963FF5100A65A64 /* UUCameraView.m */,
+				086188061963FF5100A65A64 /* UUColor.h */,
+				086188071963FF5100A65A64 /* UUColor.m */,
+				086188081963FF5100A65A64 /* UUDataCache.h */,
+				086188091963FF5100A65A64 /* UUDataCache.m */,
+				0861880A1963FF5100A65A64 /* UUDate.h */,
+				0861880B1963FF5100A65A64 /* UUDate.m */,
+				0861880C1963FF5100A65A64 /* UUDebug.h */,
+				0861880D1963FF5100A65A64 /* UUDebug.m */,
+				0861880E1963FF5100A65A64 /* UUDevice.h */,
+				0861880F1963FF5100A65A64 /* UUDevice.m */,
+				086188101963FF5100A65A64 /* UUDictionary.h */,
+				086188111963FF5100A65A64 /* UUDictionary.m */,
+				086188161963FF5100A65A64 /* UUHttpClient.h */,
+				086188171963FF5100A65A64 /* UUHttpClient.m */,
+				086188181963FF5100A65A64 /* UUImage.h */,
+				086188191963FF5100A65A64 /* UUImage.m */,
+				0861881A1963FF5100A65A64 /* UUImageView.h */,
+				0861881B1963FF5100A65A64 /* UUImageView.m */,
+				0861881E1963FF5100A65A64 /* UULocationManager.h */,
+				0861881F1963FF5100A65A64 /* UULocationManager.m */,
+				086188201963FF5100A65A64 /* UUMapView.h */,
+				086188211963FF5100A65A64 /* UUMapView.m */,
+				086188221963FF5100A65A64 /* UUObject.h */,
+				086188231963FF5100A65A64 /* UUObject.m */,
+				086188241963FF5100A65A64 /* UUOpenALSoundManager.h */,
+				086188251963FF5100A65A64 /* UUOpenALSoundManager.m */,
+				086188261963FF5100A65A64 /* UUProgressView.h */,
+				086188271963FF5100A65A64 /* UUProgressView.m */,
+				086188281963FF5100A65A64 /* UURandom.h */,
+				086188291963FF5100A65A64 /* UURandom.m */,
+				0861882A1963FF5100A65A64 /* UUReachability.h */,
+				0861882B1963FF5100A65A64 /* UUReachability.m */,
+				0861882C1963FF5100A65A64 /* UURemoteData.h */,
+				0861882D1963FF5100A65A64 /* UURemoteData.m */,
+				0861882E1963FF5200A65A64 /* UUString.h */,
+				0861882F1963FF5200A65A64 /* UUString.m */,
+				086188301963FF5200A65A64 /* UUTextField.h */,
+				086188311963FF5200A65A64 /* UUTextField.m */,
+				086188321963FF5200A65A64 /* UUVerticalSliderView.h */,
+				086188331963FF5200A65A64 /* UUVerticalSliderView.m */,
+				086188341963FF5200A65A64 /* UUView.h */,
+				086188351963FF5200A65A64 /* UUView.m */,
+			);
+			name = toolbox;
+			path = ../../toolbox;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		086187911963F7BF00A65A64 /* UUToolboxTestBed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 086187BE1963F7BF00A65A64 /* Build configuration list for PBXNativeTarget "UUToolboxTestBed" */;
+			buildPhases = (
+				0861878E1963F7BF00A65A64 /* Sources */,
+				0861878F1963F7BF00A65A64 /* Frameworks */,
+				086187901963F7BF00A65A64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UUToolboxTestBed;
+			productName = UUToolboxTestBed;
+			productReference = 086187921963F7BF00A65A64 /* UUToolboxTestBed.app */;
+			productType = "com.apple.product-type.application";
+		};
+		086187AC1963F7BF00A65A64 /* UUToolboxTestBedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 086187C11963F7BF00A65A64 /* Build configuration list for PBXNativeTarget "UUToolboxTestBedTests" */;
+			buildPhases = (
+				086187A91963F7BF00A65A64 /* Sources */,
+				086187AA1963F7BF00A65A64 /* Frameworks */,
+				086187AB1963F7BF00A65A64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				086187B31963F7BF00A65A64 /* PBXTargetDependency */,
+			);
+			name = UUToolboxTestBedTests;
+			productName = UUToolboxTestBedTests;
+			productReference = 086187AD1963F7BF00A65A64 /* UUToolboxTestBedTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0861878A1963F7BF00A65A64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = UUT;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Ryan DeVore";
+				TargetAttributes = {
+					086187AC1963F7BF00A65A64 = {
+						TestTargetID = 086187911963F7BF00A65A64;
+					};
+				};
+			};
+			buildConfigurationList = 0861878D1963F7BF00A65A64 /* Build configuration list for PBXProject "UUToolboxTestBed" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 086187891963F7BF00A65A64;
+			productRefGroup = 086187931963F7BF00A65A64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				086187911963F7BF00A65A64 /* UUToolboxTestBed */,
+				086187AC1963F7BF00A65A64 /* UUToolboxTestBedTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		086187901963F7BF00A65A64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				086187D71963F91200A65A64 /* UUTMainViewController.xib in Resources */,
+				086187A01963F7BF00A65A64 /* InfoPlist.strings in Resources */,
+				086187A81963F7BF00A65A64 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		086187AB1963F7BF00A65A64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				086187B91963F7BF00A65A64 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0861878E1963F7BF00A65A64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				086187D11963F82E00A65A64 /* main.m in Sources */,
+				0861885D1963FF5200A65A64 /* UUProgressView.m in Sources */,
+				0861885C1963FF5200A65A64 /* UUOpenALSoundManager.m in Sources */,
+				0861885A1963FF5200A65A64 /* UUMapView.m in Sources */,
+				086188521963FF5200A65A64 /* UUDictionary.m in Sources */,
+				086188491963FF5200A65A64 /* UUActionSheet.m in Sources */,
+				0861885B1963FF5200A65A64 /* UUObject.m in Sources */,
+				0861884E1963FF5200A65A64 /* UUDataCache.m in Sources */,
+				086188641963FF5200A65A64 /* UUView.m in Sources */,
+				086188621963FF5200A65A64 /* UUTextField.m in Sources */,
+				086188511963FF5200A65A64 /* UUDevice.m in Sources */,
+				086188611963FF5200A65A64 /* UUString.m in Sources */,
+				086187CF1963F81800A65A64 /* UUTAppDelegate.m in Sources */,
+				086188561963FF5200A65A64 /* UUImage.m in Sources */,
+				086188631963FF5200A65A64 /* UUVerticalSliderView.m in Sources */,
+				086188551963FF5200A65A64 /* UUHttpClient.m in Sources */,
+				086188601963FF5200A65A64 /* UURemoteData.m in Sources */,
+				086188591963FF5200A65A64 /* UULocationManager.m in Sources */,
+				0861884A1963FF5200A65A64 /* UUAlert.m in Sources */,
+				086188571963FF5200A65A64 /* UUImageView.m in Sources */,
+				0861885F1963FF5200A65A64 /* UUReachability.m in Sources */,
+				0861884D1963FF5200A65A64 /* UUColor.m in Sources */,
+				0861885E1963FF5200A65A64 /* UURandom.m in Sources */,
+				0861884F1963FF5200A65A64 /* UUDate.m in Sources */,
+				0861884C1963FF5200A65A64 /* UUCameraView.m in Sources */,
+				086187D61963F91200A65A64 /* UUTMainViewController.m in Sources */,
+				086188501963FF5200A65A64 /* UUDebug.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		086187A91963F7BF00A65A64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				086187BB1963F7BF00A65A64 /* UUToolboxTestBedTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		086187B31963F7BF00A65A64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 086187911963F7BF00A65A64 /* UUToolboxTestBed */;
+			targetProxy = 086187B21963F7BF00A65A64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0861879E1963F7BF00A65A64 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0861879F1963F7BF00A65A64 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		086187B71963F7BF00A65A64 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				086187B81963F7BF00A65A64 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		086187BC1963F7BF00A65A64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		086187BD1963F7BF00A65A64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		086187BF1963F7BF00A65A64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UUToolboxTestBed/UUToolboxTestBed-Prefix.pch";
+				INFOPLIST_FILE = "UUToolboxTestBed/UUToolboxTestBed-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		086187C01963F7BF00A65A64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UUToolboxTestBed/UUToolboxTestBed-Prefix.pch";
+				INFOPLIST_FILE = "UUToolboxTestBed/UUToolboxTestBed-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		086187C21963F7BF00A65A64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UUToolboxTestBed.app/UUToolboxTestBed";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UUToolboxTestBed/UUToolboxTestBed-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "UUToolboxTestBedTests/UUToolboxTestBedTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		086187C31963F7BF00A65A64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UUToolboxTestBed.app/UUToolboxTestBed";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UUToolboxTestBed/UUToolboxTestBed-Prefix.pch";
+				INFOPLIST_FILE = "UUToolboxTestBedTests/UUToolboxTestBedTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0861878D1963F7BF00A65A64 /* Build configuration list for PBXProject "UUToolboxTestBed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				086187BC1963F7BF00A65A64 /* Debug */,
+				086187BD1963F7BF00A65A64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		086187BE1963F7BF00A65A64 /* Build configuration list for PBXNativeTarget "UUToolboxTestBed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				086187BF1963F7BF00A65A64 /* Debug */,
+				086187C01963F7BF00A65A64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		086187C11963F7BF00A65A64 /* Build configuration list for PBXNativeTarget "UUToolboxTestBedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				086187C21963F7BF00A65A64 /* Debug */,
+				086187C31963F7BF00A65A64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0861878A1963F7BF00A65A64 /* Project object */;
+}
