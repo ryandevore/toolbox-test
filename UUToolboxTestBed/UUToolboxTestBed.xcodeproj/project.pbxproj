@@ -36,7 +36,6 @@
 		086188591963FF5200A65A64 /* UULocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0861881F1963FF5100A65A64 /* UULocationManager.m */; };
 		0861885A1963FF5200A65A64 /* UUMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 086188211963FF5100A65A64 /* UUMapView.m */; };
 		0861885B1963FF5200A65A64 /* UUObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 086188231963FF5100A65A64 /* UUObject.m */; };
-		0861885C1963FF5200A65A64 /* UUOpenALSoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 086188251963FF5100A65A64 /* UUOpenALSoundManager.m */; };
 		0861885D1963FF5200A65A64 /* UUProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 086188271963FF5100A65A64 /* UUProgressView.m */; };
 		0861885E1963FF5200A65A64 /* UURandom.m in Sources */ = {isa = PBXBuildFile; fileRef = 086188291963FF5100A65A64 /* UURandom.m */; };
 		0861885F1963FF5200A65A64 /* UUReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 0861882B1963FF5100A65A64 /* UUReachability.m */; };
@@ -108,8 +107,6 @@
 		086188211963FF5100A65A64 /* UUMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUMapView.m; sourceTree = "<group>"; };
 		086188221963FF5100A65A64 /* UUObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUObject.h; sourceTree = "<group>"; };
 		086188231963FF5100A65A64 /* UUObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUObject.m; sourceTree = "<group>"; };
-		086188241963FF5100A65A64 /* UUOpenALSoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUOpenALSoundManager.h; sourceTree = "<group>"; };
-		086188251963FF5100A65A64 /* UUOpenALSoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUOpenALSoundManager.m; sourceTree = "<group>"; };
 		086188261963FF5100A65A64 /* UUProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUProgressView.h; sourceTree = "<group>"; };
 		086188271963FF5100A65A64 /* UUProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUProgressView.m; sourceTree = "<group>"; };
 		086188281963FF5100A65A64 /* UURandom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UURandom.h; sourceTree = "<group>"; };
@@ -316,8 +313,6 @@
 				086188211963FF5100A65A64 /* UUMapView.m */,
 				086188221963FF5100A65A64 /* UUObject.h */,
 				086188231963FF5100A65A64 /* UUObject.m */,
-				086188241963FF5100A65A64 /* UUOpenALSoundManager.h */,
-				086188251963FF5100A65A64 /* UUOpenALSoundManager.m */,
 				086188261963FF5100A65A64 /* UUProgressView.h */,
 				086188271963FF5100A65A64 /* UUProgressView.m */,
 				086188281963FF5100A65A64 /* UURandom.h */,
@@ -438,7 +433,6 @@
 			files = (
 				086187D11963F82E00A65A64 /* main.m in Sources */,
 				0861885D1963FF5200A65A64 /* UUProgressView.m in Sources */,
-				0861885C1963FF5200A65A64 /* UUOpenALSoundManager.m in Sources */,
 				0861885A1963FF5200A65A64 /* UUMapView.m in Sources */,
 				086188521963FF5200A65A64 /* UUDictionary.m in Sources */,
 				086188491963FF5200A65A64 /* UUActionSheet.m in Sources */,
