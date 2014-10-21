@@ -30,20 +30,22 @@
 		086188501963FF5200A65A64 /* UUDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 0861880D1963FF5100A65A64 /* UUDebug.m */; };
 		086188511963FF5200A65A64 /* UUDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 0861880F1963FF5100A65A64 /* UUDevice.m */; };
 		086188521963FF5200A65A64 /* UUDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 086188111963FF5100A65A64 /* UUDictionary.m */; };
-		086188551963FF5200A65A64 /* UUHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 086188171963FF5100A65A64 /* UUHttpClient.m */; };
 		086188561963FF5200A65A64 /* UUImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 086188191963FF5100A65A64 /* UUImage.m */; };
-		086188571963FF5200A65A64 /* UUImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0861881B1963FF5100A65A64 /* UUImageView.m */; };
 		086188591963FF5200A65A64 /* UULocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0861881F1963FF5100A65A64 /* UULocationManager.m */; };
 		0861885A1963FF5200A65A64 /* UUMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 086188211963FF5100A65A64 /* UUMapView.m */; };
 		0861885B1963FF5200A65A64 /* UUObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 086188231963FF5100A65A64 /* UUObject.m */; };
 		0861885D1963FF5200A65A64 /* UUProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 086188271963FF5100A65A64 /* UUProgressView.m */; };
 		0861885E1963FF5200A65A64 /* UURandom.m in Sources */ = {isa = PBXBuildFile; fileRef = 086188291963FF5100A65A64 /* UURandom.m */; };
 		0861885F1963FF5200A65A64 /* UUReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 0861882B1963FF5100A65A64 /* UUReachability.m */; };
-		086188601963FF5200A65A64 /* UURemoteData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0861882D1963FF5100A65A64 /* UURemoteData.m */; };
 		086188611963FF5200A65A64 /* UUString.m in Sources */ = {isa = PBXBuildFile; fileRef = 0861882F1963FF5200A65A64 /* UUString.m */; };
 		086188621963FF5200A65A64 /* UUTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 086188311963FF5200A65A64 /* UUTextField.m */; };
 		086188631963FF5200A65A64 /* UUVerticalSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 086188331963FF5200A65A64 /* UUVerticalSliderView.m */; };
 		086188641963FF5200A65A64 /* UUView.m in Sources */ = {isa = PBXBuildFile; fileRef = 086188351963FF5200A65A64 /* UUView.m */; };
+		087CBD4519CBEF2F00D54498 /* UUHttpResponseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 087CBD4419CBEF2F00D54498 /* UUHttpResponseHandler.m */; };
+		08E95CB119B674C700C3D3CC /* UUHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 086188171963FF5100A65A64 /* UUHttpClient.m */; };
+		08E95CB219B677D900C3D3CC /* UURemoteData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0861882D1963FF5100A65A64 /* UURemoteData.m */; };
+		08E95CB319B677DE00C3D3CC /* UUImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0861881B1963FF5100A65A64 /* UUImageView.m */; };
+		08F684ED19CC0A0B006C94B3 /* UUHttpSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 0882923919B05BA600F66873 /* UUHttpSession.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -123,6 +125,12 @@
 		086188331963FF5200A65A64 /* UUVerticalSliderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUVerticalSliderView.m; sourceTree = "<group>"; };
 		086188341963FF5200A65A64 /* UUView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUView.h; sourceTree = "<group>"; };
 		086188351963FF5200A65A64 /* UUView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUView.m; sourceTree = "<group>"; };
+		087CBD4319CBEF2F00D54498 /* UUHttpResponseHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUHttpResponseHandler.h; sourceTree = "<group>"; };
+		087CBD4419CBEF2F00D54498 /* UUHttpResponseHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUHttpResponseHandler.m; sourceTree = "<group>"; };
+		0882923819B05BA600F66873 /* UUHttpSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUHttpSession.h; sourceTree = "<group>"; };
+		0882923919B05BA600F66873 /* UUHttpSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUHttpSession.m; sourceTree = "<group>"; };
+		08E11DF219CE17B300328752 /* setup.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = setup.txt; sourceTree = "<group>"; };
+		08E11DF319CE17B300328752 /* uu_test_server.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = uu_test_server.php; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -204,6 +212,7 @@
 		086187B41963F7BF00A65A64 /* UUToolboxTestBedTests */ = {
 			isa = PBXGroup;
 			children = (
+				08E11DF119CE17B300328752 /* UUTestServer */,
 				086187BA1963F7BF00A65A64 /* UUToolboxTestBedTests.m */,
 				086187B51963F7BF00A65A64 /* Supporting Files */,
 			);
@@ -303,6 +312,10 @@
 				086188111963FF5100A65A64 /* UUDictionary.m */,
 				086188161963FF5100A65A64 /* UUHttpClient.h */,
 				086188171963FF5100A65A64 /* UUHttpClient.m */,
+				0882923819B05BA600F66873 /* UUHttpSession.h */,
+				0882923919B05BA600F66873 /* UUHttpSession.m */,
+				087CBD4319CBEF2F00D54498 /* UUHttpResponseHandler.h */,
+				087CBD4419CBEF2F00D54498 /* UUHttpResponseHandler.m */,
 				086188181963FF5100A65A64 /* UUImage.h */,
 				086188191963FF5100A65A64 /* UUImage.m */,
 				0861881A1963FF5100A65A64 /* UUImageView.h */,
@@ -332,6 +345,15 @@
 			);
 			name = toolbox;
 			path = ../../toolbox;
+			sourceTree = "<group>";
+		};
+		08E11DF119CE17B300328752 /* UUTestServer */ = {
+			isa = PBXGroup;
+			children = (
+				08E11DF219CE17B300328752 /* setup.txt */,
+				08E11DF319CE17B300328752 /* uu_test_server.php */,
+			);
+			path = UUTestServer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -439,23 +461,25 @@
 				0861885B1963FF5200A65A64 /* UUObject.m in Sources */,
 				0861884E1963FF5200A65A64 /* UUDataCache.m in Sources */,
 				086188641963FF5200A65A64 /* UUView.m in Sources */,
+				08F684ED19CC0A0B006C94B3 /* UUHttpSession.m in Sources */,
 				086188621963FF5200A65A64 /* UUTextField.m in Sources */,
 				086188511963FF5200A65A64 /* UUDevice.m in Sources */,
 				086188611963FF5200A65A64 /* UUString.m in Sources */,
 				086187CF1963F81800A65A64 /* UUTAppDelegate.m in Sources */,
+				08E95CB219B677D900C3D3CC /* UURemoteData.m in Sources */,
 				086188561963FF5200A65A64 /* UUImage.m in Sources */,
+				08E95CB319B677DE00C3D3CC /* UUImageView.m in Sources */,
 				086188631963FF5200A65A64 /* UUVerticalSliderView.m in Sources */,
-				086188551963FF5200A65A64 /* UUHttpClient.m in Sources */,
-				086188601963FF5200A65A64 /* UURemoteData.m in Sources */,
 				086188591963FF5200A65A64 /* UULocationManager.m in Sources */,
 				0861884A1963FF5200A65A64 /* UUAlert.m in Sources */,
-				086188571963FF5200A65A64 /* UUImageView.m in Sources */,
+				087CBD4519CBEF2F00D54498 /* UUHttpResponseHandler.m in Sources */,
 				0861885F1963FF5200A65A64 /* UUReachability.m in Sources */,
 				0861884D1963FF5200A65A64 /* UUColor.m in Sources */,
 				0861885E1963FF5200A65A64 /* UURandom.m in Sources */,
 				0861884F1963FF5200A65A64 /* UUDate.m in Sources */,
 				0861884C1963FF5200A65A64 /* UUCameraView.m in Sources */,
 				086187D61963F91200A65A64 /* UUTMainViewController.m in Sources */,
+				08E95CB119B674C700C3D3CC /* UUHttpClient.m in Sources */,
 				086188501963FF5200A65A64 /* UUDebug.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

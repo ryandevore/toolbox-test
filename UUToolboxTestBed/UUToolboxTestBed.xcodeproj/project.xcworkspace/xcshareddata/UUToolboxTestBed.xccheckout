@@ -10,29 +10,41 @@
 	<string>UUToolboxTestBed</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>DA851679-B72E-4A04-A724-1C7BDA4E73FD</key>
+		<key>2384B64C04357C4907ABB2DA7CA3952BE88E29B4</key>
+		<string>github.com:ryandevore/toolbox.git</string>
+		<key>E64B74CC6644DF9D8DC2FF1E53BDE83C28BD0302</key>
 		<string>ssh://github.com/ryandevore/toolbox-test.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>UUToolboxTestBed/UUToolboxTestBed.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>DA851679-B72E-4A04-A724-1C7BDA4E73FD</key>
+		<key>2384B64C04357C4907ABB2DA7CA3952BE88E29B4</key>
+		<string>../../../toolbox</string>
+		<key>E64B74CC6644DF9D8DC2FF1E53BDE83C28BD0302</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>ssh://github.com/ryandevore/toolbox-test.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>DA851679-B72E-4A04-A724-1C7BDA4E73FD</string>
+	<string>E64B74CC6644DF9D8DC2FF1E53BDE83C28BD0302</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>DA851679-B72E-4A04-A724-1C7BDA4E73FD</string>
+			<string>2384B64C04357C4907ABB2DA7CA3952BE88E29B4</string>
+			<key>IDESourceControlWCCName</key>
+			<string>toolbox</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E64B74CC6644DF9D8DC2FF1E53BDE83C28BD0302</string>
 			<key>IDESourceControlWCCName</key>
 			<string>toolbox-test</string>
 		</dict>

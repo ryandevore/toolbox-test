@@ -1,0 +1,63 @@
+<?php
+
+handleRequest();
+
+function handleRequest()
+{
+    $method = $_SERVER['REQUEST_METHOD'];
+    if ('GET' == $method)
+        handleGetRequest();
+    else if ('PUT' == $method)
+        handlePutRequest();
+    else if ('POST' == $method)
+        handlePostRequest();
+    else if ('HEAD' == $method)
+        handleHeadRequest();
+    else if ('DELETE' == $method)
+        handleDeleteRequest();
+    else
+        handleUnknownRequest();
+}
+    
+function handleGetRequest()
+{
+    $args = $_GET;
+    
+    $contentType = $args['content_type'];
+    
+    $response = new stdClass();
+    $response->code = 100;
+    $response->message = 'Everything is awesome';
+    
+    $json = json_encode($response);
+    echo $json;
+}
+    
+function handlePutRequest()
+{
+    
+}
+
+function handlePostRequest()
+{
+    
+}
+
+function handleHeadRequest()
+{
+    
+}
+
+function handleDeleteRequest()
+{
+    
+}
+    
+function handleUnknownRequest()
+{
+    die('Unknown request method');
+}
+    
+
+
+?>
