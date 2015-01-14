@@ -59,7 +59,7 @@ while (!asyncTestDone) \
     XCTAssertNotNil(legacyResult, @"Expected a non-nil legacy result");
     
     UUHttpTestResult* sessionResult = [self doLegacyGetTest:url args:args];
-    XCTAssertNotNil(legacyResult, @"Expected a non-nil session result");
+    XCTAssertNotNil(sessionResult, @"Expected a non-nil session result");
     
 }
 
